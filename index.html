@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FORMS IN HTML</title>
+            <body>
+                <form action=""method="post"enctype="multipart/form-data">
+                    <label for="student name">Name:</label>
+                    <input type="text"name="student name">
+                    <br>
+                    <label form="email address">Email</label>
+                    <input type="email"name="email_address"id="email address">
+                    <br>
+                    <textarea name="bio" id="bio" rows="5" cols="35">
+                        Please enter your name here
+                    </textarea>
+                    <br>
+                    <fieldset>
+                        <legend>Subjects:</legend>
+                        <input type ="checkbox" name="english"id="english"value="english" checked>
+                        <label for enlish>English</label>
+                        <br>
+                        <input type ="checkbox" name="mathematics"id="mathematics"value="mathematics" checked>
+                        <label for mathematics>Mathematics</label>
+                        <br>
+                        <input type ="checkbox" name="chemistry"id="chemistry"value="chemistry" checked>
+                        <label for chemistry>chemistry</label>
+                        <br>
+                        <input type ="checkbox" name="physics"id="physics"value="physics" checked>
+                        <label for physics>Physics</label>
+                        <br>
+                        <input type ="checkbox" name="biology"id="biology"value="biology" checked>
+                        <label for biology>Biology</label>
+                        <br>
+                        <input type ="checkbox" name="arts"id="arts"value="arts" checked>
+                        <label for arts>Arts</label>
+                        <br>
+                        <input type ="checkbox" name="kiswahiii"id="kiswahili"value="kiswahili" checked>
+                        <label for kiswahili>Kiswahili</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Gender:</legend>
+                        <input type ="radio" name="gender"id="male"value="male" >
+                        <label for male>Male</label>
+                        <br>
+                        <input type ="radio" name="gender"id="female"value="female" >
+                        <label for female>Female</label>
+                    </fieldset>
+                    <label for="Classes">Classes</label>
+                    <select name="Classes" id="classes">
+                        <option value="">--Select preferred class--</option>
+                        <option value="physical">physical</option>
+                        <option value="virtual">Virtual</option>
+                    </select>
+                    <hr>
+                    <input type ="button" name="btn_ok"id="btn_ok"value="OK!" onclick="">
+                    <input type ="reset" name="clear"id="clear"value="clear form" >
+                    <input type ="submit" name="submit"id="submit"value="Register">
+                </form>
+                   </body>
+    </head>
+</html>
